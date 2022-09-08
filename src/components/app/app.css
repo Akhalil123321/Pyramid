@@ -9,9 +9,18 @@ html{
 }
 .shape-one{
     position: absolute;
-    width: 300rem;
-    height: 300rem;
+    width:400rem;
+    height:400rem;
     z-index: -10;
-    transform: translateX(160rem) translateY(-166rem);
+    transform: translateX(225rem) translateY(-210rem) rotate(-52deg) scaleY(-1);
+    right: 0;
+}
+.shape-two{
+    position: absolute;
+    width: 76rem;
+    height: 76rem;
+    transform: translateY(-12rem) translateX(18rem) rotate(240deg);
+    z-index: -9;
+    top:0;
     right: 0;
 }
