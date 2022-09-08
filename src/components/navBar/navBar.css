@@ -1,0 +1,30 @@
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+.logo-cont{
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    width: 2.5rem;
+}
+.nav-site-name{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem; 
+    font-weight: 900;
+    color:#000000;   
+    text-shadow: 1px 0 #000000;
+    letter-spacing:1px;
+    font-weight:bold;
+    font-family: 'Varela';font-size: 22px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
