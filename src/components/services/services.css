@@ -1,0 +1,95 @@
+.sevices-cont{
+    margin: auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+}
+.services-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services-table>:nth-child(1){
+    border-top: none;
+    border-left: none;
+}
+.services-table>:nth-child(2){
+    border-top: none;
+}
+.services-table>:nth-child(3){
+    border-top: none;
+    border-right: none;
+}
+.services-table>:nth-child(4){
+    border-bottom: none;
+    border-left: none;
+}
+.services-table>:nth-child(5){
+    border-bottom: none;
+}
+.services-table>:nth-child(6){
+    border-bottom: none;
+    border-right: none;
+}
+@media screen and (max-width:1220px) {
+    .services-table>:nth-child(1){
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-top: none;
+        border-left: none;
+    }
+    .services-table>:nth-child(2){
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-top: none;
+        border-right: none;
+    }
+    .services-table>:nth-child(3){
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-left: none;
+    }
+    .services-table>:nth-child(4){
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-right: none;
+    }
+    .services-table>:nth-child(5){
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-bottom: none;
+        border-left: none;
+    }
+    .services-table>:nth-child(6){
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-bottom: none;
+        border-right: none;
+    }
+}
+@media screen and (max-width:855px){
+    .services-table>:nth-child(n){
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, .1);
+    }
+    .services-table>:nth-child(6){
+        border: none;
+    }
+}
+.services-card{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 2rem 1rem;
+}
+.aboutus-table-icon{
+    width: 6rem;
+}
+.aboutus-head{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.servises-paragraph{
+    text-align: center;
+}

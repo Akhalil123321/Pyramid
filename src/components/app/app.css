@@ -2,25 +2,49 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --mainColor:rgb(168,49,125);
+    --secondaryColor:rgb(249,123,53)
+}
 html{
-    padding: 2rem;
+    padding:2rem  4rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     overflow-x: hidden;
 }
 .shape-one{
     position: absolute;
-    width:400rem;
-    height:400rem;
+    width:80rem;
+    height:80rem;
     z-index: -10;
-    transform: translateX(225rem) translateY(-210rem) rotate(-52deg) scaleY(-1);
+    transform: translateX(20rem) translateY(-30rem) ;
     right: 0;
 }
 .shape-two{
     position: absolute;
-    width: 76rem;
-    height: 76rem;
-    transform: translateY(-12rem) translateX(18rem) rotate(240deg);
+    width: 45rem;
+    height: 45rem;
+    transform: translateY(4rem) translateX(-5rem);
     z-index: -9;
     top:0;
     right: 0;
+}
+.main-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.mediem{
+    font-size: 2.1rem;
+    width: 80%;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
+.main-paragraph{
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gray{
+    color: rgba(0, 0, 0, .7);
+    font-weight: 400;
 }

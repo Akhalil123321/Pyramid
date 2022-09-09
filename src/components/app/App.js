@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from '../navBar/NavBar';
 import Hero from '../hero/Hero';
-import shape1 from '../../images/shape1.svg'
-import shape2 from '../../images/shape2 -2.svg'
+import AboutUs from '../aboutUs/AboutUs';
+import Services from '../services/Services';
+import shape1 from '../../images/shape1-2.svg'
+import shape2 from '../../images/shape2.svg'
 import './app.css';
 
 function App() {
@@ -12,6 +14,8 @@ return (
 		<img src={shape2} alt='' className='shape-two'/>
 		<NavBar/>
 		<Hero/>
+		<AboutUs/>
+		<Services/>
 	</div>
 );
 }
