@@ -4,7 +4,10 @@ import icon3 from '../images/icon3.png'
 import icon4 from '../images/icon4.png'
 import icon5 from '../images/icon5.png'
 import icon6 from '../images/icon6.png'
-
+import pic1 from '../images/Pic1.png'
+import pic2 from '../images/Pic2.png'
+import pic3 from '../images/Pic3.png'
+import pic4 from '../images/Pic4.png'
 
 
 export const heroContetnt ={
@@ -71,36 +74,60 @@ export const survices ={
         
     ]
 }
-export const portoflio ={
+export const portflio ={
     title:'Meet Our Team',
     content:[
         {
-            image:'',
+            key:1,
+            image: pic1,
             name:'Heather. J Tice',
             job:'Interior Designer'
         },
         {
-            image:'John David',
-            name:'',
+            key:2,
+            image: pic2,
+            name:'John David',
             job:'Developer'
         },
         {
-            image:'',
+            key:3,
+            image: pic3,
             name:'Glen M. Mendez',
             job:'Founder'
         },
         {
-            image:'',
+            key:4,
+            image: pic4,
             name:'John David',
             job:'Web Designer'
         },
     ]
 }
-export const shop ={
-    title:'',
-    content:''
-}
-export const blog ={
-    title:'',
-    content:''
+export const footer ={
+    paragraph:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+    title2:[
+        {
+            title:'Use Full Links',
+            list1:'About Us',
+            list2:'Latest Services',
+            list3:'News & Blog',
+            list4:'Our Features',
+        }
+    ],
+    title3:[
+        {
+            title:'Contact Us',
+            icon1:'',
+            list1:'7124 Brickyard St. Lutherville Timonium, MD 21093',
+            icon2:'',
+            list2:'sales@information.com',
+            icon3:'',
+            list3:'+ 1-234-222-0166',
+        }
+    ],
+    title4:[
+        {
+            title:'Get In Touch',
+        }
+    ]
 }

@@ -83,13 +83,42 @@
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 2rem 1rem;
 }
-.aboutus-table-icon{
+.services-table-icon{
     width: 6rem;
 }
-.aboutus-head{
+.services-head{
     font-weight: 500;
     letter-spacing: 1px;
 }
 .servises-paragraph{
     text-align: center;
+}
+.side-shapes{
+    width: 100vw;
+}
+.side-shapes>:nth-child(n){
+    width: 8rem;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 94rem;
+}
+.side-shapes>:nth-child(1){
+    width: 14rem;
+    right: 0;
+    transform:translateX(6.7rem) translateY(-9.7rem) rotate(12deg) scaleY(-1);
+}
+.side-shapes>:nth-child(2){
+    width: 10rem;
+    right: 0;
+    transform:translateX(3.2rem) translateY(-9rem);
+}
+.side-shapes>:nth-child(3){
+    width: 14rem;
+    left: 0;
+    transform:translateX(-6rem) translateY(3.1rem) rotate(-12deg) scaleY(-1) scaleX(-1);
+}
+.side-shapes>:nth-child(4){
+    width: 10rem;
+    left: 0;
+    transform:translateX(-2.5rem) translateY(4rem) scaleX(-1);
 }

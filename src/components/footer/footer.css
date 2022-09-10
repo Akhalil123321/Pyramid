@@ -1,0 +1,40 @@
+.footer-cont{
+    margin-top: 10rem;
+    position: relative;
+    overflow-y: hidden;
+    height: 15rem;
+    display: flex;
+}
+.footer-l-s{
+    display: flex;
+    width: 50%;
+    padding-top: 3rem;
+}
+.footer-l-s>div>div{
+    display: flex;
+    align-items: center;
+}
+.footer-l-s>div>div>h1{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+}
+.footer-l-s>div>div>img{
+    color: #ffffff;
+    width: 3.2rem;
+}
+.footer-l-s>div{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    gap: 1rem;
+}
+.footer-l-s>div>p{
+    color: #ffffff;
+    width: 50%;
+}
+.footer-r-s{
+    display: flex;
+    width: 50%;
+}

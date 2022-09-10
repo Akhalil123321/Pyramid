@@ -7,7 +7,6 @@ import image2 from '../../images/image2.png'
 import './aboutUs.css'
 const AboutUs = () => {
     const listItems = aboutUs.list.map((items) => {
-        
         return(
             <ul className='aboutus-list' key={items.key}>
                 <FaCheckCircle className='aboutus-icon'/>
