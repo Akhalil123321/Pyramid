@@ -1,7 +1,7 @@
 .hero-image{
     width: 30rem;
-    top: 11rem;
     position: absolute;
+    top: 11rem;
     right: 10rem;
 }
 .hero-l-s{
@@ -38,4 +38,28 @@
 .hero-button-cont>:nth-child(2):hover{
     background-color:var(--secondaryColor) ;
     color: #ffffff;
+}
+@media screen and (max-width : 1100px){
+    .hero-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image{
+        height: 66vw;
+        position:unset;
+        width:80%;
+        margin-top: 7rem;
+        margin-left: 12%;
+    }
+    .hero-l-s{
+        width: 100%;
+        margin-top: 3em;
+    }
+}
+@media screen and (max-width : 700px){
+    .hero-button-cont{
+        flex-direction: column;
+        width: fit-content;
+        gap: 1rem;
+    }
 }
