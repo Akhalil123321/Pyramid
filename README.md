@@ -4,6 +4,14 @@
 
 <a href='https://pyramid-22f.pages.dev/'><img src='public/pyramids-site.png' width=1000vw/></a>
 
+## Computer View
+
+<img src='public/computer-view.png' width=1000vw/>
+
+## Mobile View
+
+<img src='public/mobile-view.png' width=300vw/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
